@@ -1,0 +1,19 @@
+class Ogrenci(val ad: String, val soyad: String, val sınıf: String)
+
+fun main() {
+    val öğrenci1 = Öğrenci("Merve", "kaya", "11A-B)
+    val öğrenci2 = Öğrenci("ahmet", "demir", "12-c")
+    val öğrenci3 = Öğrenci("tugçe", "öz", "10-C")
+    val öğrenci4 = Öğrenci("Zeynep", "taş", "11-D")
+    val öğrenci5 = Öğrenci("ayşe", "yılmaz", "9-A")
+
+    Yazdır(ogrenci1)
+    Yazdır(ogrenci2)
+    Yazdır(ogrenci3)
+    Yazdır(ogrenci4)
+    azdır(ogrenci5)
+}
+
+fun ogrenciBilgileriniYazdır(ogrenci: Ogrenci) {
+    println("Adı: ${ogrenci.ad}, Soyadı: ${ogrenci.soyad}, Sınıfı: ${ogrenci.sınıf}")
+}
