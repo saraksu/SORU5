@@ -11,7 +11,7 @@ fun main() {
     Yazdır(ogrenci2)
     Yazdır(ogrenci3)
     Yazdır(ogrenci4)
-    azdır(ogrenci5)
+    Yazdır(ogrenci5)
 }
 
 fun ogrenciBilgileriniYazdır(ogrenci: Ogrenci) {
